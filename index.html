@@ -6,17 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="script.js"></script>
+    <style> 
+    #b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9{
+
+text-align: center;
+    }
+    </style>
   </head>
   <body>
-    <input type="text" onclick="b1()" class="same" id="b1" />
-    <input type="text" onclick="b2()" class="same" id="b2" />
-    <input type="text" onclick="b3()" class="same" id="b3" /><br>
-    <input type="text" onclick="b4()" class="same"  id="b4" />
-    <input type="text" onclick="b5()" class="same" id="b5" />
-    <input type="text" onclick="b6()" class="same" id="b6" /><br>
-    <input type="text" onclick="b7()" class="same" id="b7" />
-    <input type="text" onclick="b8()" class="same" id="b8" />
-    <input type="text" onclick="b9()" class="same" id="b9" /><br>
+    <div style="display: inline-block;">
+      <input style="display: inline-block;" type="text" onclick="b1()" class="same" id="b1" />
+      <input style="display: inline-block;" type="text" onclick="b2()" class="same" id="b2" />
+      <input style="display: inline-block;" type="text" onclick="b3()" class="same" id="b3" /><br />
+    </div>
+    <div style="display: inline-block; "> 
+    <input style="display: inline-block;" type="text" onclick="b4()" class="same" id="b4">
+      <input style="display: inline-block;" type="text" onclick="b5()" class="same" id="b5" />
+      <input style="display: inline-block;" type="text" onclick="b6()" class="same" id="b6" /><br />
+    </div>
+    <div style="display: inline-block; ">
+      <input style="display: inline-block;" type="text" onclick="b7()" class="same" id="b7" />
+      <input style="display: inline-block;" type="text" onclick="b8()" class="same" id="b8" />
+      <input style="display: inline-block;" type="text" onclick="b9()" class="same" id="b9" /><br />
+    </div>
     <button onclick="refresh()">reStart</button>
   </body>
 </html>
